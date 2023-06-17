@@ -1,0 +1,8 @@
+#
+# vrrpd
+#
+
+bin_PROGRAMS += custom/sang
+custom_sang_SOURCES = \
+custom/main.c
+custom_sang_LDADD = lib/libfrr.la
