@@ -1,0 +1,3 @@
+#define VERSION "@VERSION@"
+#define CUSTOM "@FOO@"
+#define CUSTOM1 "@FOO@"
