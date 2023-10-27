@@ -1,0 +1,14 @@
+#define GENLTEST_GENL_NAME "genltest"
+#define GENLTEST_GENL_VERSION 1
+#define GENLTEST_MC_GRP_NAME "mcgrp"
+
+/* Commands */
+enum genltest_cmds {
+	GENLTEST_CMD_UNSPEC,
+	GENLTEST_CMD_ECHO,
+	GENLTEST_CMD_VLAN,
+	GENLTEST_CMD_ROUTE,
+	__GENLTEST_CMD_MAX,
+};
+
+#define GENLTEST_CMD_MAX (__GENLTEST_CMD_MAX - 1)
